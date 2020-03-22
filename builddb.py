@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Mar 21 13:09:59 2020
-
-@author: 梁
-"""
-
 import numpy as np
 import pandas as pd
 import os
@@ -131,7 +124,7 @@ def merge_database(db_all_path,db_factor_path,db_price_path,db_industry_path):
 def main():
     
     cwd = os.path.abspath(os.path.curdir)
-    auth('13760191022', 'Weijie1022')
+    auth('Username', 'Password')
     get_query_count()
    
     start_date = '2019-01-01'
