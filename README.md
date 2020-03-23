@@ -14,5 +14,9 @@ The factor_portfolio_exposure.csv is a single check of solution on a single day 
 The style_factors_cum.png is the daily cummulative returns of the 10 style factors from 2019-01-01 to 2019-12-31 with style_factors_cum.csv as the original dataset.
 
 ## 3.Further exploration
-The value of Barra Factor Model lies on the return and risk attribution. There is a lot to talk and this rep will be continually updated. 
+The value of Barra Factor Model lies on volatility forecast and portfolio risk attribution. There is a lot to talk such as risk adjustment of covariance of factor return. This rep is just a start and will be continually updated. 
+
+## 4.How to use this rep
+- Enter the database path and run builddb.py
+- run the Barra_Model.py
 
